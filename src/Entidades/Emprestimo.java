@@ -7,5 +7,4 @@ public class Emprestimo {
     LocalDate dataEmprestimo;
     LocalDate dataDevolucao;
     boolean devolvido;
-
 }
