@@ -38,7 +38,13 @@ public class Bibliotecario{
     }
 
     public void addEmprestimo(){
-        emprestimo.registroemprestimo(historicoUsuarios,biblioteca,historicoEmprestimos);
+        emprestimo.registroEmprestimo(historicoUsuarios,biblioteca,historicoEmprestimos);
+    }
+    public void addDevolucao(){
+        emprestimo.registroDevolucao(historicoEmprestimos);
+    }
+    public void statusEmprestimo(){
+        emprestimo.showEmprestimo(historicoEmprestimos);
     }
 
 }

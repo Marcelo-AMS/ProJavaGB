@@ -12,7 +12,6 @@ public class Emprestimo {
     Emprestimo(){
 
     }
-
     Emprestimo(User usuario, Livro livro, LocalDate dataEmprestimo, LocalDate dataDevolcao, boolean devolvido){
         this.usuario = usuario;
         this.livro = livro;
@@ -20,4 +19,6 @@ public class Emprestimo {
         this.dataDevolucao = dataDevolcao;
         this.devolvido = devolvido;
     }
+
+
 }
