@@ -38,7 +38,6 @@ public class EmprestimoService {
         novoEmprestimo.dataEmprestimo = LocalDate.now();
         novoEmprestimo.dataDevolucao = LocalDate.now().plusMonths(1);
         novoEmprestimo.devolvido = false;
-
         emprestimos.add(novoEmprestimo);
     }
 }
